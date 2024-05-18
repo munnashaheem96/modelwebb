@@ -1,18 +1,24 @@
 .bodydesign{
     background-color: #FECD45;
+    font-family: "Montserrat";
 }
 
 nav{
-    height: 80px;
+    height: 100px;
     width: 100%;
     background: transparent;    
+    background-color: #ffffff00;
+    align-content: center;
+    border-radius: 5px;
 }
-nav.logomini{
-    width: 20%;
+nav.logo{
+    width: 70%;
     height: auto;
     display: block;
     margin-left: 50%;
     margin-right: 50%;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 nav ul{
     float: right;
@@ -32,21 +38,20 @@ nav a{
     text-decoration-line: none;
     padding: 7px 10px;
     border-radius: 50%;
-nav #icon{
-    color: #000000;
-    font-size: 30px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+    font-weight: bold;
+}
+a.active,a:hover{
+    color: #af8c8c;
+    transition: .5s;
 }
 .contactbg{
     background-color: #2568FB;
-    color: #fff
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.montserrat.contactbg{
+.montserrat-contactbg{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: bolder;
