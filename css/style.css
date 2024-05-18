@@ -1,0 +1,54 @@
+.bodydesign{
+    background-color: #FECD45;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: transparent;    
+}
+nav.logomini{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+nav a{
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid transparent;
+    text-decoration-line: none;
+    padding: 7px 10px;
+    border-radius: 50%;
+nav #icon{
+    color: #000000;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.contactbg{
+    background-color: #2568FB;
+    color: #fff
+}
+
+.montserrat.contactbg{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+}
